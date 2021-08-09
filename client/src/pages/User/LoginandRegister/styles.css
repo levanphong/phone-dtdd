@@ -1,0 +1,49 @@
+.container-full-login{
+  background-image: url('https://phongvu.vn/cong-nghe/wp-content/uploads/2020/08/Gearvn_b%C3%A0n-ph%C3%ADm-c%C6%A1_-27.jpg');
+  height: 700px;
+  margin: auto;
+  width: 100%;
+  height: 140vh;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container-item{
+  text-align: center;
+  max-width: 1400px;
+  background-color: rgb(255, 255, 255);
+  width: 700px; 
+  margin: auto;
+  margin-top: 29px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-radius: 10px 10px ;
+}
+.item1{
+  text-align: center;
+}
+.item2{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.button-item{
+  width: 200px;
+}
+.button-item1{
+  width: 300px; 
+  border-radius: 5px 5px;
+  height: 40px;
+  
+}
+.button-item2{
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 5px 5px;
+  height: 40px;
+}
+.item3{
+  color: red;
+  margin-top: -20px;
+}
+
+

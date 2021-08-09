@@ -1,0 +1,36 @@
+.all-product{
+  margin: auto;
+  max-width: 1400px;
+  margin: auto;
+  width: 1240px;
+}
+.all-product-item{
+  margin-right: 15px;
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px ;
+}
+.card-item-product{
+  border-bottom: 2px solid rgb(216, 209, 209);
+  height: 370px;
+  padding-top: 20px;
+  text-align: center;
+}
+.typeofphone{
+  width: 150px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.img-typeofphone{
+  width: 100px;
+}
+.btn-allproduct{
+  text-align: center;
+  margin-top: 20px;
+}
+.btn-product-item{
+  width: 300px;
+}

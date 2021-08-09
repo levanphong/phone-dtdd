@@ -1,0 +1,91 @@
+.container-AdminManagement-full{
+  position: relative;
+  margin: auto;
+  max-width: 1400px;
+  margin: auto;
+  width: 1240px;
+}
+.admin-item{
+  background-color: rgb(255, 224, 203);
+  padding: 10px;
+}
+.phone-item-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+}
+.img-admin{
+  width: 80px;
+}
+.phone-item-title{
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid rgb(236, 236, 241);
+
+}
+.color-item-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+
+}
+.color-item-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+
+}
+.details-ram-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+}
+.typephone-item-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+}
+.detailsphone-item-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+
+}
+.evaluatephone-item-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+}
+.accessory-item-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+
+}
+.typeofAccessory-item-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+
+}
+.detaiaccessory-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+}.evaluateaccessory-admin{
+  border-bottom: 2px solid rgb(239, 239, 243);
+  font: 14px/18px Arial,Helvetica,sans-serif;
+  color: rgb(160, 44, 44);
+}
+.showmore-admin{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn-admin{
+  margin-left: 700px;
+}
+.btn-add-admin{
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 1130px;
+  z-index: 88;
+}

@@ -1,0 +1,109 @@
+import React, { useState } from 'react'
+import { Form, Input, Radio } from 'antd';
+
+function Payment() {
+
+    const [formLayout, setFormLayout] = useState('vertical');
+    const [checked, setChecked] = useState(2);
+
+    const onChange = e => {
+        console.log('radio checked', e.target.value);
+        setChecked({
+            value: e.target.value,
+        });
+    };
+    const onFinish = (values) => {
+        console.log('Success:', values);
+    };
+
+    const onFinishFailed = (errorInfo) => {
+        console.log('Failed:', errorInfo);
+    };
+
+    const radioStyle = {
+        display: 'block',
+        height: '30px',
+        lineHeight: '30px',
+    };
+
+    const { value } = checked;
+    return (
+        <div className="payment">
+            <h5 className="payment-title">
+                Chọn phương thức thanh toán
+            </h5>
+
+            <div className="checkout-field">
+                <div className="checkout-checkbox-field">
+                    <Radio.Group onChange={onChange} value={value}>
+                        <Radio style={radioStyle} value={3}>
+                            COD - Thanh Toán Khi Nhận Hàng
+                        </Radio>
+                        <Radio style={radioStyle} value={4}>
+                            Thanh Toán Online - Chuyển Khoản
+                        {value === 4
+                                ?
+                                <div className="checkout-collapse-sub">
+                                <Form
+                                    // {...formItemLayout}
+                                    // form={shippingForm}
+                                    layout={formLayout}
+                                    // form={form}
+                                    initialValues={{
+                                        remember: true
+                                    }}
+                                    // onValuesChange={onFormLayoutChange}
+                                    onFinish={onFinish}
+                                    onFinishFailed={onFinishFailed}
+                                >
+                                    <Form.Item
+                                        // label="Tên Ngân Hàng"
+                                        name="username"
+                                        className="full-name"
+                                        rules={[
+                                            {
+                                                required: true,
+                                                message: 'Vui lòng nhập tên Ngân hàng!',
+                                            },
+                                        ]}
+                                    >
+                                        <Input placeholder="Nhập tên Ngân hàng" />
+                                    </Form.Item>
+                                    <Form.Item
+                                        name="username"
+                                        // label="Tài khoản ngân hàng"
+                                        rules={[
+                                            {
+                                                required: true,
+                                                message: 'Vui lòng nhập Tài khoản Ngân hàng!',
+                                            },
+                                        ]}
+                                    >
+                                        <Input placeholder="Nhập tài khoản ngân hàng..." />
+                                    </Form.Item>
+                                    <Form.Item
+                                        name="username"
+                                        // label="Số điện thoại thanh toán"
+                                        rules={[
+                                            {
+                                                required: true,
+                                                message: 'Vui lòng nhập số điện thoại xác nhận thanh toán!',
+                                            },
+                                        ]}
+                                    >
+                                        <Input placeholder="Nhập số điện thoại xác nhận thanh toán..." />
+                                    </Form.Item>
+                                </Form>
+                            </div>
+                                :
+                                null
+                            }
+                        </Radio>
+                    </Radio.Group>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Payment

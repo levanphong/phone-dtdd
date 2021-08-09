@@ -1,0 +1,67 @@
+.cart-item3{
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  border-radius:32px ;
+  padding-left: 10px;
+  padding-top: 2px;
+  border: 1px solid rgb(199, 196, 196);
+}
+.container-card-full{
+  margin: auto;
+  max-width: 1400px;
+  margin: auto;
+  width: 1240px;
+
+}
+.cart-item1{
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 18px;
+border-bottom: 1px solid rgb(104, 159, 236);
+}
+.cart-full{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.img-cart{
+  width: 100px;
+  border: 1px solid rgb(228, 226, 226);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.item-inside{
+  margin-bottom: 30px;
+}
+.cart-btn-full{
+  border: 1.5px solid rgb(82, 82, 206);
+  border-radius: 5px;
+}
+.price-item{
+  text-align: center;
+  color: rgb(31, 31, 207);
+}
+.shopping-cart{
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 18px;
+border-bottom: 1px solid rgb(104, 159, 236);
+margin-left: 10px;
+}
+.pay-item{
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 18px;
+border-bottom: 1px solid rgb(104, 159, 236);
+margin-left: 10px;
+margin-top: 15px;
+}
+.btn-pay{
+  text-align: center;
+}
